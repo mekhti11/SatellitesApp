@@ -1,4 +1,4 @@
-package tr.com.mekhti.satellitesapp.model
+package tr.com.mekhti.satellitesapp.data.model
 
 import java.util.ArrayList
 

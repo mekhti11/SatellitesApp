@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/satellitesListFragment"
-        android:name="tr.com.mekhti.satellitesapp.view.fragments.SatellitesListFragment"
+        android:name="tr.com.mekhti.satellitesapp.view.fragments.satellite_list.SatellitesListFragment"
         android:label="fragment_satellites_list"
         tools:layout="@layout/fragment_satellites_list" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/sateliiteDetailFragment"
-        android:name="tr.com.mekhti.satellitesapp.view.fragments.SatelliteDetailFragment"
+        android:name="tr.com.mekhti.satellitesapp.view.fragments.satellite_detail.SatelliteDetailFragment"
         android:label="fragment_sateliite_detail"
         tools:layout="@layout/fragment_satellite_detail" />
 </navigation>
