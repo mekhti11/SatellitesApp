@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_nav">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/satellitesListFragment">
 
+    <fragment
+        android:id="@+id/satellitesListFragment"
+        android:name="tr.com.mekhti.satellitesapp.view.fragments.SatellitesListFragment"
+        android:label="fragment_satellites_list"
+        tools:layout="@layout/fragment_satellites_list" >
+        <action
+            android:id="@+id/action_satellitesListFragment_to_sateliiteDetailFragment"
+            app:destination="@id/sateliiteDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sateliiteDetailFragment"
+        android:name="tr.com.mekhti.satellitesapp.view.fragments.SatelliteDetailFragment"
+        android:label="fragment_sateliite_detail"
+        tools:layout="@layout/fragment_satellite_detail" />
 </navigation>
