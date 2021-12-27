@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/green_circle.xml" value="0.2351851851851852" />
+        <entry key="app/src/main/res/drawable/red_circle.xml" value="0.2351851851851852" />
+        <entry key="app/src/main/res/drawable/search_view_bg.xml" value="0.2351851851851852" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/fragment_satellite_detail.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/fragment_satellites_list.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/satellite_item.xml" value="0.33" />
       </map>
     </option>
   </component>
