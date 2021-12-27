@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#666464">
+    android:background="#DED1D1">
 
 
     <SearchView
@@ -13,6 +13,8 @@
         android:layout_height="50dp"
         android:background="@drawable/search_view_bg"
         android:layout_margin="16dp"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
@@ -23,4 +25,5 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/searchView"
         android:layout_marginTop="32dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
